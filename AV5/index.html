@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortifrúti do 3DSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍏 Hortifrúti Digital - 3DSA</h1>
+        <!-- Fase 1: Botões de filtro por categoria no topo -->
+        <div class="filtros">
+            <button onclick="filtrarProdutos('Todos')">Todos</button>
+            <button onclick="filtrarProdutos('Legume')">Legumes</button>
+            <button onclick="filtrarProdutos('Verdura')">Verduras</button>
+            <button onclick="filtrarProdutos('Fruta')">Frutas</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Fase 1: DIV vazia que receberá a injeção do JavaScript -->
+        <div id="vitrine" class="vitrine-container"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
